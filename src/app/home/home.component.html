@@ -1,0 +1,28 @@
+
+      
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <!-- Content for the left column -->
+              
+            </div>
+            <div class="col-md-6">
+              <!-- Content for the right column -->
+
+
+                <div *ngFor = "let category of CategoryDetails | async" style="color: blue;">
+
+                
+                  <a href="/categorydetails/{{category.id}}" style="text-decoration: none;">{{category.name}}</a>
+                  </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- /postdetails/{{post.id}} -->
+        <!-- <h1 [innerHTML]="modal1.content" ></h1> -->
+        
+    
+
+        
+        
